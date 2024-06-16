@@ -187,6 +187,7 @@ opacity: 0;
 }
 
 .abt-container h1{
+    text-transform: uppercase;
     text-align: center;
     font-size: 1.8rem;
 }
@@ -205,6 +206,7 @@ opacity: 0;
 }
 
 #airdrop h1{
+    text-transform: uppercase;
     text-align: center;
     font-size: 1.8rem;
 }
@@ -252,4 +254,63 @@ opacity: 0;
 .air-btn{
     margin: auto;
     margin-top: 30px;
+}
+
+
+/* Flip the coin page */
+
+.flip-container{
+    width: 45%;
+}
+
+#flip h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.containerz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-container{
+    text-align: center;
+    width: 45%;
+    margin-top: 30px;
+}
+
+#flip img{
+    width: 30%;
+    margin-top: 60px;
+}
+
+.flip-content{
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0px;
+}
+
+.flip-content p{
+    font-size: 1.2rem;
+}
+
+.flip-start{
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+
+/* Footer section */
+
+footer{
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    text-align: center;
+    background: #2e2e2e;
 }
