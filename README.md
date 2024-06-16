@@ -22,3 +22,10 @@ The Future is Bright:
 
 The CHING team plans to expand the ecosystem, bringing on influencers and users to build a thriving community. Stay tuned for exciting developments!
 
+## ISSUES
+Ticker: CHING
+Name: ChaChing
+
+The contact adress for ChaChing is 0x61b6ec207878a636a31a5c4291a74b790cb5b7a7e14ed7f76f166146788eacf6::moon_coin::MoonCoin
+
+To add this on-chain, go to your mainet wallet and enter the Contact Address. We couldn't submit the coin to the Dex's as we needed liquidity in prior.
