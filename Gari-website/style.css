@@ -210,7 +210,10 @@ opacity: 0;
     text-align: center;
 }
 
-
+.ching-img img{
+    margin-left: 10%;
+    width: 85%;
+}
 
 .abt-container p{
     font-size: 1.2rem;
