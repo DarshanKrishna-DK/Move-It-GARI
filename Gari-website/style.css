@@ -85,7 +85,10 @@ header{
 
 .connection-buttons .btn i{
     font-size: 2rem;
+    /* background: red; */
+    /* margin-top: 20px; */
 }
+
 
 /* Falling coins */
 
