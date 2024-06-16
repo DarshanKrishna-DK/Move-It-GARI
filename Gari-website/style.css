@@ -63,6 +63,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: var(--bg-color);
 }
 
 .navigation{
@@ -175,8 +176,9 @@ opacity: 0;
 
 #about{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
+    background: var(--text-color);
+    color: var(--bg-color);
     flex-direction: column;
 }
 
@@ -195,3 +197,59 @@ opacity: 0;
     margin-bottom: 40px;
 }
 
+/* Airdrop Page */
+
+#airdrop{
+    display: flex;
+    align-items: center;
+}
+
+#airdrop h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.container2{
+    position: relative;
+    width: 24%;
+    margin-right: 80px;
+}
+
+.container1{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container3{
+    width: 24%;
+    margin-left: 80px;
+}
+
+.airdrop-container p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.criteria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.criteria-box{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px var(--main-color);
+    border-radius: 5px;
+}
+
+.criteria-box p{
+    padding: 15px;
+}
+
+.air-btn{
+    margin: auto;
+    margin-top: 30px;
+}
