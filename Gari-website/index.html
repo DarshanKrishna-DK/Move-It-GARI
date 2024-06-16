@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/Gari-website/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-------- Scroll Reveal JS -------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Move-It-Gari</title>
+</head>
+<body>
+    <!--------- NAVBAR --------->
+    <header>
+        <h1 id="title"><i class='bx bx-money-withdraw'></i>CHA-CHING</h1>
+
+        <div class="navigation">
+            <a href="#about">About</a>
+            <a href="#airdrop">Airdrop</a>
+            <a href="#flip">Flip the Coin</a>
+        </div>
+
+        <div class="connection-buttons">
+            <button class="btn">
+                <div><i class='bx bx-coin' ></i></div>
+                <div>Buy Ching</div>
+            </button>
+            <button class="btn">
+                <div><i class='bx bx-wallet-alt' ></i></div>
+                <div>Connect Wallet</div>
+            </button>
+        </div>
+    </header>
+
+    <!--------- Home Page --------->
+    <section id="home">
+        <div class="container">
+            <h1>CHA CHING</h1>
+            <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-telegram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>    
+    </section>
+
+    <!--------- About Page --------->
+    <section id="about">
+        <div class="abt-container">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vitae animi a illum voluptas asperiores aperiam. Provident, itaque vero, reiciendis qui similique quos ducimus, aliquam aperiam sed doloribus fugiat fuga.</p>
+        </div>
+        <div class="ching-img">
+            <img src="/assets/Episode_5-removebg-preview.png" alt="">
+        </div>
+    </section>
+
+    <!--------- Airdrop Page --------->
+    <section id="airdrop">
+        <div class="airdrop-container">
+            <h1>Airdrop</h1>
+            <p>Get rewarded for trading</p>
+        </div>
+        <div class="criteria">
+            <h3>Criteria</h3>
+            <div class="criteria-box">
+                <p>1. Criteria 1 is as follows hahaha</p>
+            </div>
+            <div class="criteria-box">
+                <p>2. Criteria 2 is as follows hahaha</p>
+            </div>
+        </div>
+        <button class="btn">Get Airdrop</button>
+    </section>
+
+    <!--------- Javascript File --------->
+    <script>
+        function stars() {
+        let e = document.createElement('div');
+        e.setAttribute('class', 'star');
+        document.body.appendChild(e);
+        e.style.left = Math.random()*+innerWidth+'px';
+
+        let size = Math.random() * 12;
+        let duration = Math.random()*3;
+
+        e.style.fontSize = 12 + size+'px';
+        e.style.animationDuration = 2 + duration+'s';
+
+        setTimeout(function(){
+            document.body.removeChild(e);
+        },5000)
+    }
+        setInterval(function() {
+        stars()
+        },100)
+    </script>
+
+    <script type="module" src="/Gari-website/script.js"></script>
+</body>
+</html>
