@@ -66,6 +66,11 @@ header{
     background: var(--bg-color);
 }
 
+#title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .navigation{
     margin-left: 20px;
 }
